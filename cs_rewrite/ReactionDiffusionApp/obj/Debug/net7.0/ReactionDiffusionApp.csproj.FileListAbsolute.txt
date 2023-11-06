@@ -1,0 +1,14 @@
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/ReactionDiffusionApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/ReactionDiffusionApp.AssemblyInfoInputs.cache
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/ReactionDiffusionApp.AssemblyInfo.cs
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/ReactionDiffusionApp.csproj.CoreCompileInputs.cache
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/bin/Debug/net7.0/ReactionDiffusionApp
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/bin/Debug/net7.0/ReactionDiffusionApp.deps.json
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/bin/Debug/net7.0/ReactionDiffusionApp.runtimeconfig.json
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/bin/Debug/net7.0/ReactionDiffusionApp.dll
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/bin/Debug/net7.0/ReactionDiffusionApp.pdb
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/ReactionDiffusionApp.dll
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/refint/ReactionDiffusionApp.dll
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/ReactionDiffusionApp.pdb
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/ReactionDiffusionApp.genruntimeconfig.cache
+/Users/cameronoscarmichie/Documents/GitHub/MAMOC/cs_rewrite/ReactionDiffusionApp/obj/Debug/net7.0/ref/ReactionDiffusionApp.dll

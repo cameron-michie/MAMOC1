@@ -37,7 +37,7 @@ for i in range(1000):
     Pred.move()
     interact(Prey, Pred, TheGrid)
     print(i, len(Prey.agents), len(Pred.agents))
-    fig1, ax1 = plot_frame(fig1, ax1, Prey, Pred)
+    fig1, ax1 = plot_frame(fig1, ax1, Prey, Pred, 2)
     cam1.snap()
     fig2, ax2 = plot_imshow(fig2, ax2, TheGrid)
     cam2.snap()

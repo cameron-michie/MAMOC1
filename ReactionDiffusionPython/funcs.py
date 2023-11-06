@@ -1,5 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.spatial.distance import pdist, squareform
+from matplotlib.collections import LineCollection
 import time 
 from agent import Agent
 
@@ -20,12 +22,41 @@ def filter_negative_pairs(array):
       ys.append(int(pair[1]))
   return xs, ys
 
-def plot_frame(fig, ax, Prey, Pred):
+def  plot_lines(Xs, Ys, ax, k, species):       
+    # matrix of pairwise Euclidean distances
+    all_coords = np.column_stack((Xs, Ys))
+    distmat = squareform(pdist(all_coords, 'euclidean'))
+
+    # select the kNN for each data point
+    neighbors = np.sort(np.argsort(distmat, axis=1)[:, 1:k + 1])
+
+    # get edge coordinates
+    coordinates = np.zeros((len(all_coords), k, 2, 2))
+    for i in range(len(all_coords)):å
+        for j in range(k):
+            coordinates[i, j, :, 0] = np.array([all_coords[i, 0], all_coords[neighbors[i, j], 0]])
+            coordinates[i, j, :, 1] = np.array([all_coords[i, 1], all_coords[neighbors[i, j], 1]])
+
+    if species == "prey":
+        lines = LineCollection(coordinates.reshape((len(all_coords) * k, 2, 2)), 
+                               color='green', linewidth=10, alpha=0.7)
+    if species == "pred":
+        lines = LineCollection(coordinates.reshape((len(all_coords) * k, 2, 2)), 
+                               color='red', linewidth=10, alpha=0.7)
+    ax.add_collection(lines)
+    return ax 
+
+def plot_frame(fig, ax, Prey, Pred, k=0):
     gridxsize, gridysize = Prey.grid.gridxsize, Prey.grid.gridysize
     x_prey, y_prey = filter_negative_pairs(Prey.species_coords)
     x_pred, y_pred = filter_negative_pairs(Pred.species_coords)
     prey_scatter = ax.scatter(x_prey, y_prey, c='green', alpha=0.85)
     pred_scatter = ax.scatter(x_pred, y_pred, c='red', alpha=0.85)
+
+    if k>1:
+        ax = plot_lines(x_prey, y_prey, ax, k, "prey")
+        ax = plot_lines(x_pred, y_pred, ax, k, "pred")
+
     ax.set(xlim=(0, gridxsize), ylim=(0, gridysize))
     plt.axis('off')
     return fig, ax
