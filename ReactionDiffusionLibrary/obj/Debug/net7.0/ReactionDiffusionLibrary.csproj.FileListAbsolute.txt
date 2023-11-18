@@ -9,3 +9,14 @@
 /Users/cameronoscarmichie/Documents/GitHub/MAMOC/ReactionDiffusionLibrary/obj/Debug/net7.0/refint/ReactionDiffusionLibrary.dll
 /Users/cameronoscarmichie/Documents/GitHub/MAMOC/ReactionDiffusionLibrary/obj/Debug/net7.0/ReactionDiffusionLibrary.pdb
 /Users/cameronoscarmichie/Documents/GitHub/MAMOC/ReactionDiffusionLibrary/obj/Debug/net7.0/ref/ReactionDiffusionLibrary.dll
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/bin/Debug/net7.0/ReactionDiffusionLibrary.deps.json
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/bin/Debug/net7.0/ReactionDiffusionLibrary.dll
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/bin/Debug/net7.0/ReactionDiffusionLibrary.pdb
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/Debug/net7.0/ReactionDiffusionLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/Debug/net7.0/ReactionDiffusionLibrary.AssemblyInfoInputs.cache
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/Debug/net7.0/ReactionDiffusionLibrary.AssemblyInfo.cs
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/Debug/net7.0/ReactionDiffusionLibrary.csproj.CoreCompileInputs.cache
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/Debug/net7.0/ReactionDiffusionLibrary.dll
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/Debug/net7.0/refint/ReactionDiffusionLibrary.dll
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/Debug/net7.0/ReactionDiffusionLibrary.pdb
+/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/Debug/net7.0/ref/ReactionDiffusionLibrary.dll

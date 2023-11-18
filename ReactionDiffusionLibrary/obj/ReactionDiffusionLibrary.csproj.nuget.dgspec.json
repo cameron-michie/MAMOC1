@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cameronoscarmichie/Documents/GitHub/MAMOC/ReactionDiffusionLibrary/ReactionDiffusionLibrary.csproj": {}
+    "/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/ReactionDiffusionLibrary.csproj": {}
   },
   "projects": {
-    "/Users/cameronoscarmichie/Documents/GitHub/MAMOC/ReactionDiffusionLibrary/ReactionDiffusionLibrary.csproj": {
+    "/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/ReactionDiffusionLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cameronoscarmichie/Documents/GitHub/MAMOC/ReactionDiffusionLibrary/ReactionDiffusionLibrary.csproj",
+        "projectUniqueName": "/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/ReactionDiffusionLibrary.csproj",
         "projectName": "ReactionDiffusionLibrary",
-        "projectPath": "/Users/cameronoscarmichie/Documents/GitHub/MAMOC/ReactionDiffusionLibrary/ReactionDiffusionLibrary.csproj",
+        "projectPath": "/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/ReactionDiffusionLibrary.csproj",
         "packagesPath": "/Users/cameronoscarmichie/.nuget/packages/",
-        "outputPath": "/Users/cameronoscarmichie/Documents/GitHub/MAMOC/ReactionDiffusionLibrary/obj/",
+        "outputPath": "/Users/cameronoscarmichie/Documents/GitHub/SpatialEcology/ReactionDiffusionLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cameronoscarmichie/.nuget/NuGet/NuGet.Config"
